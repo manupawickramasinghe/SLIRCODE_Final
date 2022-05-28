@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main(){
+int x,y;
+scanf(%d,&x);
+y = x%2
+if (y == 1){
+printf("%d\n",x);
+elseprintf("It is an even number\n");
+
+{printf("It is an even number\n");
+}
+}}

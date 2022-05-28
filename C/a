@@ -1,0 +1,28 @@
+#define S1 2
+#define S2 3
+#define S3 4
+#define S4 5
+#define PB1 6
+#define PB2 7
+#define PB3 8
+#define PB4 9
+#define IN1 10
+#define IN2 11
+
+void setup(){
+    pinMode(S1,INPUT_PULLUP);
+    pinMode(S2,INPUT_PULLUP);
+    pinMode(S3,INPUT_PULLUP);
+    pinMode(PB1,INPUT_PULLUP);
+    pinMode(PB2,INPUT_PULLUP);
+    pinMode(PB3,INPUT_PULLUP);
+    pinMode(PB4,INPUT_PULLUP);
+    pinMode(IN1,OUTPUT);
+    pinMode(IN2,OUTPUT);
+    
+    
+}
+void loop(){
+    if(digitalRead(S1)==1){
+        
+}
